@@ -1,0 +1,66 @@
+.note {
+    width: 90%;
+    max-width: 35rem;
+    margin: 6rem auto 0;
+    position: relative;
+  }
+  .note__form {
+    width: 100%;
+  }
+  .note__form input {
+    width: 100%;
+    min-height: 43px;
+    letter-spacing: 0.00625em;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 10px 0px;
+    border: none;
+    color: #202124;
+  }
+  .note__form input:focus,
+  .note__form textarea:focus {
+    outline: none;
+  }
+  .note__form textarea {
+    padding: 12px 0px;
+    width: 100%;
+    min-height: 46px;
+    letter-spacing: 0.01428571em;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    resize: none;
+    border: none;
+  }
+  .note__form textarea::-webkit-scrollbar {
+    width: 0px;
+  }
+  .note__form button {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    background-color: #fbbc04;
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .note__form button:hover {
+    background-color: #ffc720;
+  }

@@ -1,0 +1,29 @@
+.header {
+    width: 100vw;
+    height: 4rem;
+    border-bottom: 2px solid #e3e5e8;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  .header__logo {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5vw;
+  }
+  .header__logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .header__logo p {
+    font-size: 22px;
+    color: #5f6368;
+    font-family: "Product Sans", Arial, sans-serif;
+    line-height: 24px;
+    padding-left: 8px;
+  }

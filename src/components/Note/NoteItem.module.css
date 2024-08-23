@@ -1,0 +1,40 @@
+.note__item {
+    width: 100vw;
+    max-width: 20rem;
+    margin: 1rem;
+    position: relative;
+    height: fit-content;
+  }
+  .note__item h3 {
+    font-size: 1rem;
+    padding-top: 6px;
+    font-weight: 500;
+  }
+  .note__item p {
+    font-size: 15px;
+    padding: 12px 0px 40px;
+    word-wrap: break-word;
+    white-space: pre;
+  }
+  .note__item button {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 0.85rem;
+    color: #fff;
+    background-color: #fbbc04;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+  }
